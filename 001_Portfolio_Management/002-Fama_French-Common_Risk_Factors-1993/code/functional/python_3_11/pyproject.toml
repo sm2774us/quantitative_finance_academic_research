@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "fama_french"
+version = "0.1.0"
+description = "Fama-French Three-Factor Model"
+authors = ["Shaikat Majumdar <sm2774us@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+pandas = "^2.2.2"
+statsmodels = "^0.14.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

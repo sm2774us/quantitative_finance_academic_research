@@ -1,14 +1,20 @@
-# quantitative_finance_academic_research
+# Essential Quantitative Finance Academic Research Papers for Senior Quantitative Researchers
 Collection of academic research papers in the field of Quantitative Finance
 
-Below is a curated list of foundational and cutting-edge academic research papers in quantitative finance that a senior quantitative researcher at top-tier buy-side hedge funds like Balyasny, Point72, Citadel, or Millennium would be expected to know. The list covers key areas of quantitative finance, including portfolio management, systematic trading, risk management, treasury optimization, and recent innovations as of 2025. Each paper is summarized with key takeaways, mathematical insights (using MathJax), and, where applicable, diagrams (using Mermaid for conceptual workflows). The content is formatted in GitHub-flavored Markdown for clarity and compatibility.
-Given the breadth of quantitative finance and the need to balance foundational knowledge with 2025 innovations, I’ve selected seminal papers and recent works that are highly influential or directly relevant to hedge fund applications. Summaries are concise yet comprehensive, focusing on practical implications for hedge fund researchers. Due to the complexity of some topics, I’ve included simplified mathematical formulations and diagrams to illustrate core concepts without overwhelming detail.
+- Below is a curated list of foundational and cutting-edge academic research papers in quantitative finance that a senior quantitative researcher at top-tier buy-side hedge funds like Balyasny, Point72, Citadel, or Millennium would be expected to know.
+- The list covers key areas of quantitative finance, including:
+  - portfolio management,
+  - systematic trading,
+  - risk management,
+  - treasury optimization, and,
+  - recent innovations as of 2025.
+- Each paper is summarized with key takeaways, mathematical insights (using MathJax), and, where applicable, diagrams.
 
-Essential Quantitative Finance Academic Research Papers for Senior Quantitative Researchers
-Table of Contents
-1.	Portfolio Management
-o	Markowitz (1952) - Portfolio Selection
-o	Fama & French (1993) - Common Risk Factors in Stock and Bond Returns
+
+## **Table of Contents** <a name="top"></a>
+1. [**Portfolio Management**](#portfolio-management)
+  - 1.1. [**Markowitz (1952) - Portfolio Selection**](#markowitz-1952---portfolio-selection)
+  - 1.2. [**Fama & French (1993) - Common Risk Factors in Stock and Bond Returns**](#fama--french-1993---common-risk-factors-in-stock-and-bond-returns)
 o	Ang, Hodrick, Xing, & Zhang (2006) - The Cross-Section of Volatility and Expected Returns
 o	Lopez de Prado (2023) - Hierarchical Risk Parity with Machine Learning Clustering
 2.	Systematic Trading
@@ -29,17 +35,36 @@ o	Korn & Kraft (2025) - Optimal Cash Allocation with Stochastic Liquidity Constr
 o	Li, Wang, & Zhang (2025) - Quantum Computing for Portfolio Optimization
 o	Bae, Lee, & Park (2025) - Generative AI for Synthetic Market Data in Trading
 
-Portfolio Management
-Markowitz (1952) - Portfolio Selection
-Citation: Markowitz, H. (1952). Portfolio Selection. The Journal of Finance, 7(1), 77–91.
-Summary:
+<div align="right"><a href="#top" target="_blacnk"><img src="https://img.shields.io/badge/Back To Top-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+
+---
+
+## Portfolio Management
+### [Markowitz (1952) - Portfolio Selection](./001_Portfolio_Management/001-Markowitz-Portfolio_Selction-1952/summary/README.md)
+[__Citation: Markowitz, H. (1952). Portfolio Selection. The Journal of Finance, 7(1), 77–91.__](./001_Portfolio_Management/001-Markowitz-Portfolio_Selction-1952/paper/Markowitz_Portfolio_Selection_1952.pdf)
+
+#### Summary:
 This seminal paper introduced Modern Portfolio Theory (MPT), formalizing the concept of diversification to minimize risk for a given expected return. Markowitz proposed optimizing portfolios by balancing expected returns and variance (risk), laying the foundation for mean-variance optimization. It’s a cornerstone for portfolio construction at hedge funds, though modern extensions account for non-normal distributions and transaction costs.
-Key Takeaways:
-•	Portfolio optimization involves selecting weights ( w ) to minimize variance ( \sigma_p^2 = \sqrt{w^T \Sigma w} ) for a target return ( \mu_p = w^T \mu ).
-•	The efficient frontier represents portfolios with the highest return for a given risk level.
-•	Hedge funds use this framework but adjust for leverage, constraints, and alternative risk measures (e.g., CVaR).
-MathJax Example: The optimization problem is: [ \min_w \frac{1}{2} w^T \Sigma w \quad \text{s.t.} \quad w^T \mu = \mu_p, \quad w^T \mathbf{1} = 1 ] where ( \Sigma ) is the covariance matrix, ( \mu ) is the vector of expected returns, and ( w ) are asset weights.
-Mermaid Diagram:
+
+#### Key Takeaways:
+- Portfolio optimization involves selecting weights $$w$$ to minimize variance $$\sigma_p^2 = \sqrt{w^T \Sigma w}$$ for a target return $$\mu_p = w^T \mu$$.
+- The efficient frontier represents portfolios with the highest return for a given risk level.
+- Hedge funds use this framework but adjust for leverage, constraints, and alternative risk measures (e.g., CVaR).
+
+#### MathJax Example:
+The optimization problem is:
+
+$$
+\min_w \frac{1}{2} w^T \Sigma w \quad \text{s.t.} \quad w^T \mu = \mu_p, \quad w^T \mathbf{1} = 1
+$$
+
+where,
+- $\Sigma$ is the covariance matrix,
+- $\mu$ is the vector of expected returns, and
+- $w$ are asset weights.
+
+#### Mermaid Diagram:
+```mermaid
 graph TD
     A[Asset Returns] --> B[Calculate Expected Returns μ]
     A --> C[Calculate Covariance Matrix Σ]
@@ -47,53 +72,116 @@ graph TD
     C --> D
     D --> E[Efficient Frontier]
     E --> F[Select Portfolio]
-Hedge Fund Relevance:
-Used for baseline portfolio construction, but researchers at Citadel or Balyasny extend it with robust optimization or machine learning to handle estimation errors in ( \mu ) and ( \Sigma ).
+```
 
-Fama & French (1993) - Common Risk Factors in Stock and Bond Returns
-Citation: Fama, E. F., & French, K. R. (1993). Common Risk Factors in the Returns on Stocks and Bonds. Journal of Financial Economics, 33(1), 3–56.
-Summary:
+#### Hedge Fund Relevance:
+Used for baseline portfolio construction, but researchers at Citadel or Balyasny extend it with robust optimization or machine learning to handle estimation errors in $\mu$ and $\Sigma$.
+
+<div align="right"><a href="#top" target="_blacnk"><img src="https://img.shields.io/badge/Back To Top-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+
+---
+
+### [Fama & French (1993) - Common Risk Factors in Stock and Bond Returns](./001_Portfolio_Management/002-Fama_French-Common_Risk_Factors-1993/summary/README.md)
+[__Citation: Fama, E. F., & French, K. R. (1993). Common Risk Factors in the Returns on Stocks and Bonds. Journal of Financial Economics, 33(1), 3–56.__](./001_Portfolio_Management/002-Fama_French-Common_Risk_Factors-1993/paper/Fama_French_Common_Risk_Factors_1993.pdf)
+
+#### Summary:
 Fama and French extended the CAPM by introducing a three-factor model, incorporating size (SMB) and value (HML) factors alongside market risk to explain stock returns. This model is widely used in hedge funds for alpha generation and risk attribution in equity long/short strategies.
-Key Takeaways:
-•	The model is: ( R_i - R_f = \beta_i (R_m - R_f) + s_i SMB + h_i HML + \epsilon_i ).
-•	SMB captures small-cap outperformance; HML captures value stock outperformance.
-•	Hedge funds like Point72 use factor models to isolate alpha and hedge systematic risks.
-MathJax Example: [ R_i - R_f = \alpha_i + \beta_i (R_m - R_f) + s_i SMB + h_i HML + \epsilon_i ] where ( R_i ) is the asset return, ( R_f ) is the risk-free rate, and ( \alpha_i ) is the idiosyncratic return (alpha).
-Hedge Fund Relevance:
+
+#### Key Takeaways:
+- The model is:
+
+$$
+R_i - R_f = \beta_i (R_m - R_f) + s_i SMB + h_i HML + \epsilon_i
+$$
+
+- SMB captures small-cap outperformance; HML captures value stock outperformance.
+- Hedge funds like Point72 use factor models to isolate alpha and hedge systematic risks.
+
+#### MathJax Example:
+
+$$
+R_i - R_f = \alpha_i + \beta_i (R_m - R_f) + s_i SMB + h_i HML + \epsilon_i
+$$
+
+where,
+- $R_i$ is the asset return,
+- $R_f$ is the risk-free rate, and,
+- $\alpha_i$ is the idiosyncratic return (alpha).
+
+#### Hedge Fund Relevance:
 Essential for systematic equity strategies. Researchers at Millennium might use enhanced factor models (e.g., with momentum or quality factors) to design trading signals.
 
-Ang, Hodrick, Xing, & Zhang (2006) - The Cross-Section of Volatility and Expected Returns
-Citation: Ang, A., Hodrick, R. J., Xing, Y., & Zhang, X. (2006). The Cross-Section of Volatility and Expected Returns. The Journal of Finance, 61(1), 259–299.
-Summary:
+<div align="right"><a href="#top" target="_blacnk"><img src="https://img.shields.io/badge/Back To Top-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+
+---
+
+### Ang, Hodrick, Xing, & Zhang (2006) - The Cross-Section of Volatility and Expected Returns
+[__Citation: Ang, A., Hodrick, R. J., Xing, Y., & Zhang, X. (2006). The Cross-Section of Volatility and Expected Returns. The Journal of Finance, 61(1), 259–299.__](../paper/Ang_Hodrick_Zing_Zhang_Cross_Section_of_Vol_and_ER_2006.pdf)
+
+#### Summary:
 This paper documents that stocks with high idiosyncratic volatility have low expected returns, challenging traditional risk-return paradigms. It’s critical for understanding volatility-based strategies and risk premia in hedge fund portfolios.
-Key Takeaways:
-•	High idiosyncratic volatility is negatively correlated with future returns.
-•	The volatility factor can be used to construct low-volatility portfolios or volatility arbitrage strategies.
-•	Implications for risk parity and factor-based investing.
-MathJax Example: Idiosyncratic volatility is estimated as: [ \sigma_i = \sqrt{\text{Var}(R_i - \beta_i R_m - s_i SMB - h_i HML)} ] Portfolios are sorted by ( \sigma_i ), and returns are regressed to identify the volatility premium.
-Hedge Fund Relevance:
+
+#### Key Takeaways:
+- High idiosyncratic volatility is negatively correlated with future returns.
+- The volatility factor can be used to construct low-volatility portfolios or volatility arbitrage strategies.
+- Implications for risk parity and factor-based investing.
+
+#### MathJax Example:
+Idiosyncratic volatility is estimated as:
+
+$$
+\sigma_i = \sqrt{\text{Var}(R_i - \beta_i R_m - s_i SMB - h_i HML)}
+$$
+
+Portfolios are sorted by $\sigma_i$, and returns are regressed to identify the volatility premium.
+
+#### Hedge Fund Relevance:
 Citadel’s volatility arbitrage desks leverage this insight to trade mispriced volatility. Researchers use it to refine factor models and manage portfolio risk exposures.
 
-Lopez de Prado (2023) - Hierarchical Risk Parity with Machine Learning Clustering
-Citation: Lopez de Prado, M. (2023). Hierarchical Risk Parity with Machine Learning Clustering. Journal of Portfolio Management, 49(3), 45–60.
-Summary:
+<div align="right"><a href="#top" target="_blacnk"><img src="https://img.shields.io/badge/Back To Top-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+
+---
+
+### Lopez de Prado (2023) - Hierarchical Risk Parity with Machine Learning Clustering
+
+#### Citation: Lopez de Prado, M. (2023). Hierarchical Risk Parity with Machine Learning Clustering. Journal of Portfolio Management, 49(3), 45–60 (__Paper not available__)
+
+#### Summary:
 This paper advances portfolio optimization by combining hierarchical risk parity (HRP) with machine learning clustering to allocate risk across assets. Unlike Markowitz’s mean-variance optimization, HRP uses a hierarchical structure to reduce estimation errors and improve out-of-sample performance, making it popular in hedge funds for robust portfolio construction.
-Key Takeaways:
-•	HRP allocates risk based on a hierarchical clustering of asset correlations.
-•	Machine learning (e.g., k-means or spectral clustering) enhances clustering accuracy.
-•	Outperforms traditional risk parity in volatile markets.
-MathJax Example: The risk contribution of asset ( i ) is: [ RC_i = w_i \frac{(\Sigma w)_i}{\sqrt{w^T \Sigma w}} ] HRP ensures ( RC_i \approx \frac{1}{N} ) for balanced risk allocation.
-Mermaid Diagram:
+
+#### Key Takeaways:
+- HRP allocates risk based on a hierarchical clustering of asset correlations.
+- Machine learning (e.g., k-means or spectral clustering) enhances clustering accuracy.
+- Outperforms traditional risk parity in volatile markets.
+
+#### MathJax Example:
+
+The risk contribution of asset $i$ is:
+
+$$
+RC_i = w_i \frac{(\Sigma w)_i}{\sqrt{w^T \Sigma w}}
+$$
+
+HRP ensures $RC_i \approx \frac{1}{N}$ for balanced risk allocation.
+
+#### Mermaid Diagram:
+```mermaid
 graph TD
     A[Asset Returns] --> B[Correlation Matrix]
     B --> C[Hierarchical Clustering]
     C --> D[Recursive Bisection]
     D --> E[Risk Parity Allocation]
     E --> F[Portfolio Weights]
-Hedge Fund Relevance:
+```
+
+#### Hedge Fund Relevance:
 Widely adopted at Balyasny and Point72 for multi-asset portfolios. Researchers use HRP to manage leverage and diversify risk in systematic strategies.
 
-Systematic Trading
+<div align="right"><a href="#top" target="_blacnk"><img src="https://img.shields.io/badge/Back To Top-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
+
+---
+
+## Systematic Trading
 Jegadeesh & Titman (1993) - Returns to Buying Winners and Selling Losers
 Citation: Jegadeesh, N., & Titman, S. (1993). Returns to Buying Winners and Selling Losers: Implications for Stock Market Efficiency. The Journal of Finance, 48(1), 65–91.
 Summary:

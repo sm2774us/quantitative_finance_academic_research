@@ -3,7 +3,8 @@
 
 ## Summary:
 This seminal paper introduced Modern Portfolio Theory (MPT), formalizing the concept of diversification to minimize risk for a given expected return. Markowitz proposed optimizing portfolios by balancing expected returns and variance (risk), laying the foundation for mean-variance optimization. It’s a cornerstone for portfolio construction at hedge funds, though modern extensions account for non-normal distributions and transaction costs.
-Key Takeaways:
+
+## Key Takeaways:
 - Portfolio optimization involves selecting weights $$w$$ to minimize variance $$\sigma_p^2 = \sqrt{w^T \Sigma w}$$ for a target return $$\mu_p = w^T \mu$$.
 - The efficient frontier represents portfolios with the highest return for a given risk level.
 - Hedge funds use this framework but adjust for leverage, constraints, and alternative risk measures (e.g., CVaR).
