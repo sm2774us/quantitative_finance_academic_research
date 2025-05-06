@@ -12,7 +12,7 @@
 
 ## Explanation
 - __OOP:__ The __`hrp_optimize`__ `function` performs the same task without state.
-- __Latest Features:__ __`Rust 1.84.0`’s__ error handling and and [__`nalgebra`__](https://github.com/dimforge/nalgebra) for matrix operations.
+- __Latest Features:__ __`Rust 1.84.0`’s__ error handling and [__`nalgebra`__](https://github.com/dimforge/nalgebra) for matrix operations.
 - __Algorithm:__ Simplified with __`k-d` tree clustering__; full __`HRP`__ uses `hierarchical clustering` (e.g., `dendrogram-based`).
 
 ## Complexity

@@ -12,7 +12,7 @@
 
 ## Explanation
 - __OOP:__ The __`VolatilitySorter`__ `struct` with methods for volatility and sorting.
-- __Latest Features:__ __`Rust 1.84.0`’s__ error handling and and [__`nalgebra`__](https://github.com/dimforge/nalgebra) for matrix operations.
+- __Latest Features:__ __`Rust 1.84.0`’s__ error handling and [__`nalgebra`__](https://github.com/dimforge/nalgebra) for matrix operations.
 - __Algorithm:__ Computes total volatility (as a proxy for idiosyncratic) and sorts assets into portfolios.
 
 ## Complexity

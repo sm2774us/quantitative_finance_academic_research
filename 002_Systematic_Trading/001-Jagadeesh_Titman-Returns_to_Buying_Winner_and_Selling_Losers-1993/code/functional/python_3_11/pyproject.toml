@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "momentum"
+version = "0.1.0"
+description = "Momentum Strategy Implementation"
+authors = ["Your Name <your.email@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -12,7 +12,7 @@
 
 ## Explanation
 - __OOP:__ The __`fit_fama_french`__ `function` computes coefficients statelessly.
-- __Latest Features:__ __`Rust 1.84.0`’s__ error handling and and [__`nalgebra`__](https://github.com/dimforge/nalgebra) for matrix operations.
+- __Latest Features:__ __`Rust 1.84.0`’s__ error handling and [__`nalgebra`__](https://github.com/dimforge/nalgebra) for matrix operations.
 - __Algorithm:__ Manual __Ordinary Least Squares (`OLS`) implementation__ for simplicity (real-world would use __Generalized Least Squares (`GLS`)__ or similar).
 
 ## Complexity
