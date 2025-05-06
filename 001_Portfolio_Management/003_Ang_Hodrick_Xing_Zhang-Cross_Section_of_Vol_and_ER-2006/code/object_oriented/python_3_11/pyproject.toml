@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "volatility_sorting"
+version = "0.1.0"
+description = "Volatility Sorting for Portfolios"
+authors = ["Shaikat Majumdar <sm2774us@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

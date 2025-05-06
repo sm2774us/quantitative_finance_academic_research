@@ -25,7 +25,7 @@ poetry install
 ```
 - Run:
 ```bash
-poetry run python src/main.py
+poetry run python src/functional.py
 ```
 - Expected Output:
 ```

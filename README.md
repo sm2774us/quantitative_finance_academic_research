@@ -15,12 +15,12 @@ Collection of academic research papers in the field of Quantitative Finance
 1. [**Portfolio Management**](#portfolio-management)
   - 1.1. [**Markowitz (1952) - Portfolio Selection**](#markowitz-1952---portfolio-selection)
   - 1.2. [**Fama & French (1993) - Common Risk Factors in Stock and Bond Returns**](#fama--french-1993---common-risk-factors-in-stock-and-bond-returns)
-o	Ang, Hodrick, Xing, & Zhang (2006) - The Cross-Section of Volatility and Expected Returns
+  - 1.3. [**Ang, Hodrick, Xing, & Zhang (2006) - The Cross-Section of Volatility and Expected Returns**](#ang-hodrick-xing--zhang-2006---the-cross-section-of-volatility-and-expected-returns)
 o	Lopez de Prado (2023) - Hierarchical Risk Parity with Machine Learning Clustering
 2.	Systematic Trading
 o	Jegadeesh & Titman (1993) - Returns to Buying Winners and Selling Losers
 o	Chan, Jegadeesh, & Lakonishok (1996) - Momentum Strategies
-o	Harvey, Liu, & Zhu (2016) - …and the Cross-Section of Expected Returns
+o	Harvey, Liu, & Zhu (2016) - ...and the Cross-Section of Expected Returns
 o	Gu, Kelly, & Xiu (2025) - Deep Learning for Asset Pricing and Trading
 3.	Risk and Controls
 o	Jorion (1996) - Value at Risk: A New Benchmark for Measuring Derivatives Risk

@@ -3,7 +3,7 @@
 ## File Structure
 ```
 ├── src/
-│   ├── markowitz/
+│   ├── fama_french/
 │   │   ├── __init__.py
 │   │   ├── model.py
 │   ├── main.py
