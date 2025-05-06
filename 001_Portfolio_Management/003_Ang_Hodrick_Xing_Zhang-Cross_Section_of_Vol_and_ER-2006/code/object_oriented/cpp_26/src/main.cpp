@@ -1,6 +1,6 @@
-#include "volatility_sorting_fp.hpp" // Uncomment for FP version
-#include <iostream>
-#include <random>
+import volatility_sorting;
+import <iostream>;
+import <random>;
 
 int main()
 {
@@ -15,7 +15,7 @@ int main()
         }
     }
     VolatilitySorter sorter(returns, 5);
-    auto portfolios = volatility_sorting_fp::sort_assets(returns, 5);
+    auto portfolios = sorter.sort_assets();
     for (int i = 0; i < portfolios.size(); ++i)
     {
         std::cout << "Portfolio " << i << ": ";
