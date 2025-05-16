@@ -1,8 +1,9 @@
-cmake_minimum_required(VERSION 3.20)
+cmake_minimum_required(VERSION 3.22)
 project(FamaFrenchCpp23)
 
 # Set the C++ standard to C++23
 set(CMAKE_CXX_STANDARD 23)
+set(CMAKE_CXX_COMPILER g++-13)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 # Find the Eigen3 package

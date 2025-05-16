@@ -1,13 +1,12 @@
 [tool.poetry]
-name = "hrp"
+name = "momentum_calculator"
 version = "0.1.0"
-description = "Hierarchical Risk Parity"
+description = "Momentum Calculator Implementation"
 authors = ["Shaikat Majumdar <sm2774u@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
 numpy = "^1.26.4"
-scipy = "^1.13.1"
 
 [build-system]
 requires = ["poetry-core"]

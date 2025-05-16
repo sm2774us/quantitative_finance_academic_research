@@ -2,7 +2,7 @@
 name = "momentum"
 version = "0.1.0"
 description = "Momentum Strategy Implementation"
-authors = ["Your Name <your.email@example.com>"]
+authors = ["Shaikat Majumdar <sm2774u@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.11"
