@@ -79,7 +79,7 @@ graph TD
 Used for baseline portfolio construction, but researchers at Citadel or Balyasny extend it with robust optimization or machine learning to handle estimation errors in $\mu$ and $\Sigma$.
 
 #### Infographic:
-🧵 [**As an Infographic**](./001_Portfolio_Management/001-Markowitz-Portfolio_Selection-1952/layman_explanation/Infographic_Markowitz_1952_Portfolio_Selection.png)
+🧵 ![**As an Infographic**](./001_Portfolio_Management/001-Markowitz-Portfolio_Selection-1952/layman_explanation/Infographic_Markowitz_1952_Portfolio_Selection.png)
 
 <div align="right"><a href="#top" target="_blacnk"><img src="https://img.shields.io/badge/Back To Top-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 
@@ -116,7 +116,7 @@ where,
 Essential for systematic equity strategies. Researchers at Millennium might use enhanced factor models (e.g., with momentum or quality factors) to design trading signals.
 
 #### Infographic:
-🧵 [**As an Infographic**](./001_Portfolio_Management/002-Fama_French-Common_Risk_Factors-1993/layman_explanation/Infographic_Fama_and_French_1993_Common_Risk_Factors_in_Stock_and_Bond_Returns.png)
+🧵 ![**As an Infographic**](./001_Portfolio_Management/002-Fama_French-Common_Risk_Factors-1993/layman_explanation/Infographic_Fama_and_French_1993_Common_Risk_Factors_in_Stock_and_Bond_Returns.png)
 
 
 <div align="right"><a href="#top" target="_blacnk"><img src="https://img.shields.io/badge/Back To Top-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
@@ -147,7 +147,7 @@ Portfolios are sorted by $\sigma_i$, and returns are regressed to identify the v
 Citadel’s volatility arbitrage desks leverage this insight to trade mispriced volatility. Researchers use it to refine factor models and manage portfolio risk exposures.
 
 #### Infographic:
-🧵 [**As an Infographic**](./001_Portfolio_Management/003_Ang_Hodrick_Xing_Zhang-Cross_Section_of_Vol_and_ER-2006/layman_explanation/Infographic_Ang_Hodrick_Xing_Zhang_2006_The_Cross_Section_of_Volatility_and_Expected_Returns.png)
+🧵 ![**As an Infographic**](./001_Portfolio_Management/003_Ang_Hodrick_Xing_Zhang-Cross_Section_of_Vol_and_ER-2006/layman_explanation/Infographic_Ang_Hodrick_Xing_Zhang_2006_The_Cross_Section_of_Volatility_and_Expected_Returns.png)
 
 <div align="right"><a href="#top" target="_blacnk"><img src="https://img.shields.io/badge/Back To Top-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
 
@@ -189,7 +189,7 @@ graph TD
 Widely adopted at Balyasny and Point72 for multi-asset portfolios. Researchers use HRP to manage leverage and diversify risk in systematic strategies.
 
 #### Infographic:
-🧵 [**As an Infographic**](./001_Portfolio_Management/004_Lopez_de_Prado_M-Hierarchical_Risk_Parity-2023/layman_explanation/Infographic_Lopez_de_Prado_2023_Hierarchical_Risk_Parity_with_Machine_Learning_Clustering.png)
+🧵 ![**As an Infographic**](./001_Portfolio_Management/004_Lopez_de_Prado_M-Hierarchical_Risk_Parity-2023/layman_explanation/Infographic_Lopez_de_Prado_2023_Hierarchical_Risk_Parity_with_Machine_Learning_Clustering.png)
 
 
 <div align="right"><a href="#top" target="_blacnk"><img src="https://img.shields.io/badge/Back To Top-orange?style=for-the-badge&logo=expo&logoColor=white" /></a></div>
