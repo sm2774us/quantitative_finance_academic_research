@@ -79,5 +79,5 @@ This formula says:
 
 ## 🧵 **As an Infographic**
 
-[Infographic](./Infographic_Lopez_de_Prado_2023_Hierarchical_Risk_Parity_with_Machine_Learning_Clustering.png)
+![Infographic](./Infographic_Lopez_de_Prado_2023_Hierarchical_Risk_Parity_with_Machine_Learning_Clustering.png)
 

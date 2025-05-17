@@ -111,4 +111,4 @@ Then, they sort stocks into groups (from low to high volatility) and track how t
 
 ## 🧵 **As an Infographic**
 
-[Infographic](./Infographic_Ang_Hodrick_Xing_Zhang_2006_The_Cross_Section_of_Volatility_and_Expected_Returns.png)
+![Infographic](./Infographic_Ang_Hodrick_Xing_Zhang_2006_The_Cross_Section_of_Volatility_and_Expected_Returns.png)

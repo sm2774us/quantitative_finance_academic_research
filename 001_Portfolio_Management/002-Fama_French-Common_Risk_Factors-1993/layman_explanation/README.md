@@ -97,4 +97,4 @@ The market goes up by 5%.
 
 ## 🧵 **As an Infographic**
 
-[Infographic](./Infographic_Fama_and_French_1993_Common_Risk_Factors_in_Stock_and_Bond_Returns.png)
+![Infographic](./Infographic_Fama_and_French_1993_Common_Risk_Factors_in_Stock_and_Bond_Returns.png)

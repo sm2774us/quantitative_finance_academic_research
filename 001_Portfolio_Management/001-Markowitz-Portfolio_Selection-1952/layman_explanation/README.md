@@ -109,4 +109,4 @@ He showed the world that smart investing isn’t just about picking winners — 
 
 ## 🧵 **As an Infographic**
 
-[Infographic](./Infographic_Markowitz_1952_Portfolio_Selection.png)
+![Infographic](./Infographic_Markowitz_1952_Portfolio_Selection.png)
