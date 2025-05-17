@@ -1,4 +1,4 @@
-# LAYMAN EXPLANATION - of the paper - __
+# LAYMAN EXPLANATION - of the paper - __Lopez de Prado (2023) - Hierarchical Risk Parity with Machine Learning Clustering__
 Here’s the **layman’s explanation** of the **Lopez de Prado’s (2023)** paper — *Hierarchical Risk Parity with Machine Learning Clustering* — using **layman terms**, **real-life examples**, and **visual metaphors** to make it easy for a non-technical audience to grasp.
 
 ---
